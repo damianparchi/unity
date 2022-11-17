@@ -1,0 +1,51 @@
+Program called with the following parameters:
+ * filterLargeTrianglesFactor = 60
+ * filterTrianglesRatio = 0
+ * filteringIterations = 1
+ * filteringSubset = "all"
+ * inputMesh = "C:/Users/kamil/Downloads/MeshroomCache/Meshing/13da6d709f39672148c5f0917c06cbb08a6688ae/mesh.obj"
+ * keepLargestMeshOnly = 0
+ * outputMesh = "C:/Users/kamil/Downloads/MeshroomCache/MeshFiltering/30c73525539a09e30213bf3315d050360182348f/mesh.obj"
+ * smoothingBoundariesNeighbours = 0
+ * smoothingIterations = 5
+ * smoothingLambda = 1
+ * smoothingSubset = "all"
+ * verboseLevel = "info"
+
+[18:02:40.408842][info] Loading mesh from obj file: C:/Users/kamil/Downloads/MeshroomCache/Meshing/13da6d709f39672148c5f0917c06cbb08a6688ae/mesh.obj
+[18:02:40.661015][info] 	- # vertices: 656435
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 1303294
+[18:02:41.519873][info] Mesh loaded: 
+	- #points: 656435
+	- # triangles: 1303294
+[18:02:41.523873][info] Mesh file: "C:/Users/kamil/Downloads/MeshroomCache/Meshing/13da6d709f39672148c5f0917c06cbb08a6688ae/mesh.obj" loaded.
+[18:02:41.523873][info] Input mesh: 656435 vertices and 1303294 facets.
+[18:02:41.523873][info] Start mesh filtering.
+[18:02:41.523873][info] Mesh filtering: iteration 0
+[18:02:41.523873][info] Filtering large triangles.
+[18:02:41.557539][info] Filtering large triangles, done.
+[18:02:41.563044][info] Mesh filtering done: 656435 vertices and 1303286 facets.
+[18:02:41.563044][info] Start mesh smoothing.
+[18:02:44.512878][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[18:02:45.089569][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+[18:02:45.089569][info] Optimizing mesh smooth: iteration 0
+[18:02:45.125582][info] Optimizing mesh smooth: iteration 1
+[18:02:45.159088][info] Optimizing mesh smooth: iteration 2
+[18:02:45.192599][info] Optimizing mesh smooth: iteration 3
+[18:02:45.226111][info] Optimizing mesh smooth: iteration 4
+[18:02:45.265119][info] Mesh smoothing done: 656435 vertices and 1303286 facets.
+[18:02:45.265119][info] remove free points from mesh.
+Output mesh: 656435 vertices and 1303286 facets.
+[18:02:45.304127][info] Save mesh.
+[18:02:45.304127][info] Save mesh to obj: C:/Users/kamil/Downloads/MeshroomCache/MeshFiltering/30c73525539a09e30213bf3315d050360182348f/mesh.obj
+[18:02:45.304127][info] Nb points: 656435
+[18:02:45.304127][info] Nb triangles: 1303286
+[18:02:45.877081][info] Save mesh to obj done.
+[18:02:45.877081][info] Mesh file: "C:/Users/kamil/Downloads/MeshroomCache/MeshFiltering/30c73525539a09e30213bf3315d050360182348f/mesh.obj" saved.
+[18:02:45.877081][info] Task done in (s): 5.469000
